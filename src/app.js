@@ -8,7 +8,7 @@ const app = express();
 // cors preflight
 app.use(
   cors({
-    origin: 'http://localhost:5173', // Frontend origin
+    origin: ['http://localhost:5173','https://localhost:5173'], // Frontend origin
     methods: ['GET', 'POST', 'DELETE', 'OPTIONS'], // Allowed methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
     credentials: true, // Allow cookies and credentials
