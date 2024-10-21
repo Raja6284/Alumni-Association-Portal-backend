@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon ./src/server.js"
   },
-  "author": "Sagar Singh",
+  "author": "Raja Kumar",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.4",
